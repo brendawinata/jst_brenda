@@ -39,4 +39,5 @@ r.get('/prediction/:i/:r', function(req, res, next) {
         res.json(jres);
     })
 });
+
 module.exports = r;
